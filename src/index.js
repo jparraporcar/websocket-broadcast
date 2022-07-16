@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
 const server = app.listen(8080, () => console.log('listening'));
 const wss = new ws_1.WebSocketServer({ server: server });
 wss.on('connection', (ws) => {
+    console.log('new connection');
     const id = (0, uuid_1.v4)();
     clients.set(ws, id);
     console.log(clients);

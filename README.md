@@ -1,6 +1,5 @@
-
-
 To run the app:
 
-npm run compile
-npm start
+1. npm run compile
+2. move the new frontend.js file to public folder and delete old one (provisional)
+3. npm start

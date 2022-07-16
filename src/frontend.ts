@@ -10,7 +10,7 @@ ws.onopen = () => {
   form.addEventListener('submit', (event: SubmitEvent) => {
     event.preventDefault()
     if (messageInput.value === '') return
-    const messageObject = { sendId: null, text: messageInput.value }
+    const messageObject = { senderId: null, text: messageInput.value }
     const outboundMessageObject = JSON.stringify(messageObject)
     ws.send(outboundMessageObject)
   })
