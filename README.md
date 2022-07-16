@@ -1,5 +1,5 @@
-To run the app:
+###To run the app:
 
-1. npm run compile
-2. move the new frontend.js file to public folder and delete old one (provisional)
+1. npm install
+2. npm run tsc
 3. npm start
