@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple WebSocket server-client application. When a message is received by the server, it's broadcast to all connected clients.
+This is a WebSocket server-client application. When a message is received by the server, it's broadcast to all connected clients.
 
 ## Installation
 
@@ -16,12 +16,12 @@ This is a simple WebSocket server-client application. When a message is received
 
 1. Clone the repository:
 ```
-git clone https://github.com/jparraporcar/ws-examples.git
+git clone https://github.com/jparraporcar/websocket-broadcast.git
 ```
 
 2. Navigate into the project directory:
 ```
-cd ws-examples
+cd websocket-broadcast
 ```
 
 3. Install the project dependencies:
