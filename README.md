@@ -1,4 +1,4 @@
-# WebSockets Broadcast
+# websocket-broadcast
 
 ## Description
 
